@@ -1,0 +1,121 @@
+@import url("/assets/css/reset.css");
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#header .top_menu{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+#header .top_menu .left_menu img{
+    width: 15vw;
+}
+#header .top_menu .mid_menu{
+    margin-top: 3vh;
+    position: relative;
+    right: 65px;
+    font-size: 14px;
+    
+}
+#header .top_menu .mid_menu hr{
+    width: 350px;
+    border-color: black;
+}
+#header .top_menu .right_menu{
+    margin-top: 3vh;
+
+}
+#header .top_menu .right_menu a{
+    margin-right: 15px;
+    position: relative;
+    right: 50px;
+    font-size: 14px;
+}
+#header .top_menu .right_menu .lang_menu{
+    border-style: groove;
+    color: gray;
+}
+
+#header .gnb{
+    margin-top: 40px;
+    display: block;
+}
+#header .gnb a{
+    font-size: 18px;
+    margin-right: 90px;
+    color: #000;
+    display:inline-block; 
+    text-transform:uppercase;
+}
+#header .gnb a:after{
+    display:block;
+    content: '';
+    border-bottom: solid 3px black;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+}
+#header .gnb a:hover:after{
+    transform: scaleX(1);
+}
+#header .gnb hr{
+    margin: 0;
+    padding: 0;
+}
+#header .ads img{
+    width: 100%;
+    height: 400px;
+    background-image: url("/assets/images/Banner_1.jpg");
+    background-size: contain;
+    background-position: center;
+}
+#header .item{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 33%;
+    float:left;
+}
+#header .item a{
+    width: 100%;
+    font-size: 15px;
+    color: gray;
+}
+#header .item #item_d{
+    font-size: 40px;
+    color: red;
+}
+#header .item #item_t{
+    font-size: 40px;
+    color: #238ece;;
+}
+#header .item #item_q{
+    font-size: 40px;
+    color: black;
+}
+
+
+/* #header #event{
+    background-color: lightgray;
+}
+#header #event .event_ex a{
+    font-size: 25px;
+    width: 20%;
+}
+
+#header #event .event_ex #event_exb{
+    font-weight: bold;
+    color: #238ece;;
+}
+#header #event .event_img{
+    object-fit: fill;
+    width: 100%;
+    height: 200px;
+    float: left;
+ } */
+
+
+
+
